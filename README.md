@@ -9,6 +9,10 @@ Generative methods (in particular, GANs) are currently used in various places on
 # Dataset
 There are 20579 dog image files as train file, the test file are 10,000 dog images sized 64x64 generated automatically by GAN.
 
+## Sample Dog Image
+
+![](./n02085620_199.jpg)
+
 # Things to Do
 - Data exploring
 - Image processing
