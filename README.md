@@ -15,7 +15,18 @@ There are 20579 dog image files as train file, the test file are 10,000 dog imag
 
 # Things to Do
 - Data exploring
+    There are some problems in the dataset:
+  - There are pictures with more than one dog (even with 3 dogs);
+  - There are pictures with the dog (-s) and person (people);
+  - There are pictures with more than one person (even with 4 people);
+  - There are pictures where dogs occupy less than 1/5 of the picture;
+  
 - Image processing
+  normalization
+  
 - GAN network building
+  define a generator with 3 hidden layers and define a discriminater with a reverse layers
+  
 - Parameters fitting 
+  
 - Dog files generating
