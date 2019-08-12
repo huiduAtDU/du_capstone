@@ -22,10 +22,10 @@ There are 20579 dog image files as train file, the test file are 10,000 dog imag
   - There are pictures where dogs occupy less than 1/5 of the picture;
   
 - Image processing
-  normalization
+  - normalization
   
 - GAN network building
-  define a generator with 3 hidden layers and define a discriminater with a reverse layers
+  - define a generator with 3 hidden layers and define a discriminater with a reverse layers
   
 - Parameters fitting 
   
