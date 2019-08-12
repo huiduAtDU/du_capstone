@@ -14,7 +14,7 @@ There are 20579 dog image files as train file, the test file are 10,000 dog imag
 ![](./n02085620_199.jpg)
 
 # Things to Do
-- Data exploring
+- Data exploring: (16004, 12288)
     There are some problems in the dataset:
   - There are pictures with more than one dog (even with 3 dogs);
   - There are pictures with the dog (-s) and person (people);
@@ -25,8 +25,12 @@ There are 20579 dog image files as train file, the test file are 10,000 dog imag
   - normalization
   
 - GAN network building
-  - define a generator with 3 hidden layers and define a discriminater with a reverse layers
+  - define a generator with 3 hidden layers and define a discriminater with reverse layers to generator
+  - generator struct: (100, 512) -> (512, 1024) -> (1024, 2048) -> (2048, 12288)
+  - discriminator struct: (12288, 2048) -> (2048, 1024) -> (1024, 512) -> (512, 1)
   
 - Parameters fitting 
+  - batch_size = 100
+  - lr = 0.0002
   
 - Dog files generating
